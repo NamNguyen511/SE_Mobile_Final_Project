@@ -28,6 +28,20 @@
 
     </RelativeLayout>
 
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:text="You already made orders. Your order will be send to you soon. Thank you for choosing our service."
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/cart_list"
